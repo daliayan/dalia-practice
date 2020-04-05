@@ -83,6 +83,8 @@ git[]remote[]-v   :lists the cloned information to the workspace
 
 git[]branch[]-a   :lists the branches in the workspace
 
+git[]rm  :how to remove a single file from the git repository
+
 
 How to push changes to make a remote depository:
 
