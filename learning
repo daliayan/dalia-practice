@@ -86,6 +86,9 @@ git[]branch[]-a   :lists the branches in the workspace
 git[]rm[]"file name"  :how to remove a single file from the git repository
 
 
+LINK TO THE YOUTUBE VIDEO: https://www.youtube.com/watch?v=HVsySz-h9r4
+
+
 How to push changes to make a remote depository:
 
 1. git diff  :shows you the difference between the local repository and the remote
