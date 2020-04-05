@@ -1,0 +1,144 @@
+TERMINAL KNOWLEDGE
+-
+How to Open the Terminal: CTRL + ALT + "T" ... or right click > open terminal
+
+cd[]. OR cd[space]~ :goes to Home/Dalia
+
+cd + "name": opens a document within the directory
+
+cd[].. :goes 1 level up from directory
+
+cp[]"name of item"[]"copied location": copies something into the folder
+
+ls: opens a list of your directory
+
+ls -alh: opens a list of the directory in detail
+
+man[]ls: manual for using lists
+
+mkdir[]"name": makes directory folder
+
+mv[]"name"* :moves the item to Home/Dalia/
+
+mv[]"name of file"[]"directory location" :moves a file into a specific directory
+
+pwd: present working directory > tells you where you are in the terminal
+
+rmdir[]"name of folder in directory": removes a directory folder
+
+rm[]-R[]* :removes everything from the directory
+
+rm[]-R[]"name of directory" :removes the directory and the contents of its folder
+
+rm[]"name"* :removes anything with name in the beginning
+
+rm[]*"name" :removes anything with name at the end
+
+rm[]*"name"* :removes anything with "name" in it
+
+xdg-open[]"file name.pdf" :how to open pdf's in UBUNTU
+
+How to Exit the Terminal or quit whatever process occuring in the terminal: CTRL + "c" ... or type exit
+
+
+HOW TO'S WITH LIBRE OFFICE
+-
+How to open word documents or excel: libreoffice[]--writer ... libreoffice[]--calc
+
+How to make text documents: gedit
+
+How to open text documents: gedit[]"text name'[]&
+
+
+HOW TO TURN OFF TOUCH SCREEN
+-
+xsetwqcom--list[]devices: shows different touch devices
+
+xsetwqcom[]--set[]#[]touch off
+
+
+LEARNING GIT
+-g
+Starting a Git repository from scratch: create a directory to house the new project, go into the new directory and type "git init"  ... write some code into the terminal, type "git add" ... to add the files, type "git commit" .. to commit the files. Making and tracking local git repository
+
+git[]help[]verb ... git<verb>--help    :how to recieve help when using Gi
+
+git[]add[]"file name"  :adding a specific item into the staging area
+
+git[]add[]-A :adding all items to the staging area
+
+git[]status  :shows which items are in the process of entering the staging area or the master file
+
+git[]reset[]"file name"  :removes the file from the staging area
+
+git[]reset   :removes all items from the staging area
+
+git[]commit[]-m[]"comment on the file"   :commits the items in the staging area to the repository/master file
+
+git[]log   :shows you whats been added to the repo/master, who worked on the files, and when it was submitted
+
+git[]clone[]<URL>[]"where you want it to clone *add the "." to show that it's the current directory you want to clone it into"  :how to clone a remote repository into your workspace
+
+git[]remote[]-v   :lists the cloned information to the workspace
+
+git[]branch[]-a   :lists the branches in the workspace
+
+
+How to push changes to make a remote depository:
+
+1. git diff  :shows you the difference between the local repository and the remote
+
+2. git status  :shows which items are waiting in the staging area
+
+3. git[]add[]-A  :adding files into the staging area
+
+4. git[]pull[]origin[]master  :pulling the master file and any of the changes made to it
+
+5. git[]commit[]-m "comment on the file"  :commiting the items in the staging area to the master file
+
+6. git[]push[]origin[]master  :pushing the changes made to the master branch
+
+
+How to make a branch in the repository:
+
+1. git[]branch[]"file name"  :creating the name for the new branch
+
+2. git[]branch  :lists the branches in the file
+
+3. git[]checkout[]"file name"  :changes your location the the branch "file name"
+
+How to commit new/changed branch to the remote repository:
+
+1. git[]push[]-u[]origin[]"file name"  :pushes the new/changed branch to the remote repository
+
+How to merge a branch with the master file:
+
+1. git[]checkout[]master  :switches branch to the master file
+
+2. git[]pull[]origin[]master  :pulling the master file and any of the changes made to it
+
+3. git[]branch[]--merged  :shows which items have been merged so far
+
+4.git[]merge[]file name  :merges files
+
+5. git[]push[]origin[]master  :pushing the changes made to the master branch
+
+How to delete branch:
+
+1. git[]checkout[]master  :switches branch to the master file
+
+2. git[]pull[]origin[]master  :pulling the master file and any of the changes made to it
+
+3. git[]branch[]--merged  :shows which items have been merged so far
+
+4. git[]branch[]-d[]"file name"  :deletes the branch
+
+5. git[]branch[]-a  :shows you the branches in the repository
+
+6. git[]push[]origin[]--delete[]"file name"  :deletes the branch from the master
+
+
+
+
+
+
